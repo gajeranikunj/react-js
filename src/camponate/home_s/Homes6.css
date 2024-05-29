@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.home6 {
+  width: 100%;
+  display: flex;
+  background-image: url("https://icongrid.vercel.app/static/media/beeback.21a7b8e984e3ad689f56.png");
+  background-size: cover;
+  background-color: rgb(255, 224, 138);
+}
+
+.home6 > div {
+  width: 50%;
+}
+
+.home6 > div:first-child {
+  padding: 50px;
+  padding-bottom: 25px;
+}
+
+.home6 > div:first-child > div:first-child {
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+.home6 > div:first-child > div:last-child {
+  font-size: 20px;
+  width: 84%;
+}
+
+.home6 > div > img {
+  width: 100%;
+}
+
+.home6 > div:first-child {
+  position: relative;
+}
+
+.home6 > div:first-child > .bee-1 {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 280px;
+}
+
+.home6 > div:last-child {
+  position: relative;
+}
+
+.home6 > div:last-child > .bee-2 {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: -60px;
+}
+
+.home6 > div:last-child > .bee-3 {
+  width: 100px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
+.home6 > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home6 > div:first-child > div:first-child {
+    font-size: 33px;
+  }
+  .home6 > div:first-child > div:last-child {
+    font-size: 15PX;
+  }
+}

@@ -1,0 +1,42 @@
+:root {
+    --bgcolor: rgb(39, 39, 39);
+    --color: rgb(255, 255, 255);
+    --iconcolor:rgb(255, 188, 6);
+    --iconsize:50px;
+}
+
+.homes2 {
+    width: 100%;
+    background-color: var(--bgcolor);
+    color: var(--color);
+    display: flex;
+}
+.homes2>div{
+    
+    width: calc(95%/3);
+    margin: calc(5%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.homes2>div>div:last-child{
+    text-align: center;
+    width: calc(85%);
+}
+.homes2 .icon{
+    color: var(--iconcolor);
+    font-size: var(--iconsize);
+}
+.homes2 .icon-count{
+    font-size: 30px;
+    font-weight: 600;
+}
+.homes2>div>div{
+    padding: 5px 0px;
+}
+.homes2>div>div:first-child{
+    padding: 2px 0px;
+
+}

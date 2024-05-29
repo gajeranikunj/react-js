@@ -1,0 +1,116 @@
+.main {
+    width: 100%;
+    height: 720px;
+    background-image: url(./../img/nav-img/bgicon.png);
+    display: flex;
+    align-items: center;
+}
+
+.main>.data_s1 {
+    width: 100%;
+}
+
+.main>.data_s1>.titel>.line2 {
+    text-align: center;
+}
+
+.main>.data_s1>.titel {
+    justify-content: center;
+    line-height: .9;
+}
+
+.main>.data_s1>.para>p {
+    width: 50%;
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.main>.data_s1>.titel>.line1 {
+    display: ruby-text;
+}
+
+.main>.data_s1>.titel>.line1>div,
+.main>.data_s1>.titel>.line2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.main>.data_s1>.titel>.line1>div:last-child {
+    color: rgb(255, 188, 6);
+    padding-left: 10px;
+}
+
+.main>.data_s1>.search>.inputbox {
+    width: 80%;
+}
+
+.main>.data_s1>.search>.go_btn {
+    padding: 5px;
+    width: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(255, 188, 6);
+}
+
+.main>.data_s1>.search>.inputbox>input {
+    font-size: larger;
+    border: 0px;
+}
+
+.main>.data_s1>.search {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.main>.data_s1>.search>.inputbox>input:focus-visible {
+    outline: 0;
+}
+
+.main>.data_s1>.search>.inputbox>input:placeholder-shown {
+    color: black;
+}
+
+/* ................................................. */
+
+/* @media only screen and (max-width: 1024px) {
+    .main>.data_s1 {
+        width: 60%;
+    }
+} */
+
+
+/* ................................................. */
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .main>.data_s1 {
+        width: 68%;
+        margin: auto;
+    }
+    .main>.data_s1>.para>p {
+        width: 100%;
+    }
+    .main>.data_s1>.search {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main>.data_s1>.titel>.line1>div,
+    .main>.data_s1>.titel>.line2 {
+        font-size: 32px;
+    }
+}

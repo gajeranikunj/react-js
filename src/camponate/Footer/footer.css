@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border-radius: 230px 0px 0px;
+}
+
+.footer>.data>div {
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.footer>.data>div {
+    width: 80%;
+}
+
+.footer>.data>div>div {
+    width: 20%;
+}
+
+.footer>.data>div>div>.titel {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer>.data>div>div>div {
+    margin: 8px 0px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.copyerite{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}

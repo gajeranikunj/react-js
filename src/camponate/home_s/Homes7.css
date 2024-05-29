@@ -1,0 +1,47 @@
+.Homes7 {
+    width: 100%;
+    display: flex;
+}
+
+.Homes7>div {
+    width: 50%;
+}
+
+.Homes7>.Homes7_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homes7>.Homes7_img>img {
+    width: 80%;
+}
+
+.Homes7>.new>div>.Homes7_titel {
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 17px;
+    font-weight: 900;
+    display: inline-block;
+    font-family: "Rammetto One", sans-serif;
+    color: rgb(187, 252, 233);
+    -webkit-text-stroke: 1px rgb(39, 39, 39);
+    user-select: none;
+}
+
+.Homes7 .Homes7_para {
+    width: 62%;
+    margin: 13px auto;
+    font-size: 16px;
+}
+.Homes7 .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Homes7 .new>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

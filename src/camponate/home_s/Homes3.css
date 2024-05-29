@@ -1,0 +1,136 @@
+.homes3 {
+  width: 100%;
+}
+
+.homes3-titel {
+  margin-top: 70px;
+}
+
+.homes3-titel > div {
+  text-align: center;
+  width: 100%;
+}
+
+.homes3 > .carte {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
+}
+
+/* .... */
+.homes3 > .carte > .carte-1 > .cartbg {
+  background-color: rgb(255, 224, 138);
+}
+
+.homes3 > .carte > .carte-1 > .face-icon > .face-bg {
+  background-color: rgb(255, 198, 45);
+}
+
+.homes3 > .carte > .carte-1 > .carte-btn {
+  background-color: rgb(255, 224, 138);
+  border: 1px solid rgb(255, 188, 6);
+}
+
+.homes3 > .carte > .carte-2 > .cartbg {
+  background-color: rgb(174, 219, 255);
+}
+.homes3 > .carte > .carte-2 > .face-icon > .face-bg {
+  background-color: rgb(116, 192, 252);
+}
+.homes3 > .carte > .carte-2 > .carte-btn {
+  background-color: rgb(174, 219, 255);
+  border: 1px solid rgb(116 192 252);
+}
+.homes3 > .carte > .carte-3 > .cartbg {
+  background-color: rgb(205, 187, 255);
+}
+.homes3 > .carte > .carte-3 > .face-icon > .face-bg {
+  background-color: rgb(177, 151, 252);
+}
+.homes3 > .carte > .carte-3 > .carte-btn {
+  background-color: rgb(205, 187, 255);
+  border: 1px solid rgb(158 127 252);
+}
+.homes3 > .carte > .carte-4 > .cartbg {
+  background-color: rgb(148, 255, 222);
+}
+.homes3 > .carte > .carte-4 > .face-icon > .face-bg {
+  background-color: rgb(99, 230, 190);
+}
+.homes3 > .carte > .carte-4 > .carte-btn {
+  background-color: rgb(148, 255, 222);
+  border: 1px solid rgb(120, 249, 208);
+}
+.homes3 > .carte > .carte-i > .cartbg {
+  width: 100%;
+  height: 85px;
+}
+
+.homes3 > .carte > .carte-i > .face-icon > .face-bg {
+  width: 75px;
+  height: 75px;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homes3 > .carte > .carte-i > .carte-titel {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.homes3 > .carte > .carte-i > .carte-para {
+  padding: 15px 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.homes3 > .carte > .carte-i > .carte-btn {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.homes3 > .carte > .carte-i > .face-icon {
+  width: 100%;
+  height: calc(75px / 2);
+  display: flex;
+  justify-content: center;
+  margin-top: calc(-75px / 2);
+}
+
+/* ... */
+.homes3 > .carte > div {
+  width:270px;
+  overflow: hidden;
+  margin: 5px 0px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.homes3-titel > div:first-child {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+}
+
+.homes3-titel > div:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+

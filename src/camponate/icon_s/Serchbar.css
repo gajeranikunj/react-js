@@ -1,0 +1,65 @@
+.searchbar {
+    padding: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.searchbar>.dropdown {
+    width: 150px;
+    /* border: 1px solid black;
+    height: 30px; */
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.legend {
+    font-size: 15px;
+}
+
+.b-n {
+    border: none;
+    padding: 0px 10px 0px 5px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.b-n:focus-visible {
+    outline: none;
+}
+
+.df-jc-ic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serch_input {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.serch_input>input {
+    width: 97%;
+    height: 31px;
+    margin-top: 10px;
+    padding-left: 9px;
+    font-size: 20px;
+}
+
+.serch_btn {
+    background-color: #ffbc06;
+    color: white;
+    font-size: 20px;
+    padding: 2px 30px;
+    margin-top: 8px;
+    border: none;
+}
+.serch_btn:hover{
+background-color: black;
+}

@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.icon-1 {
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.13);
+    background-image: url(https://icongrid.vercel.app/static/media/banner-download-bg.20fefb5da29d852cb999.png),
+        url(https://icongrid.vercel.app/static/media/banner-download-bg-2.bb5a771f4417ec6b4900.png);
+}
+
+.icons1_data1 {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icons1_data2 {
+    padding: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icons1_data3 {
+    display: flex;
+}
+
+.icons1_data3_btn {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 188, 6);
+}
